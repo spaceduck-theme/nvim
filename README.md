@@ -7,6 +7,16 @@
 
 This is Nvim spaceduck theme port written in Lua.
 
+# Installation
+
+## [packer.nvim](https://github.com/wbthomason/packer.nvim)
+
+```lua
+use({ "spaceduck-theme/nvim", as = "spaceduck" })
+```
+
+We use semver on spaceduck so you can refer to a specific tag if you want instead of the `master` branch.
+
 # Contributing
 
 We welcome all contributions. Before you contribute you should be aware of some tooling we have in place to help us maintaining this project.
