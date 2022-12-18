@@ -19,7 +19,7 @@ We use semver on spaceduck so you can refer to a specific tag if you want instea
 
 # Plugins support
 
-- [Lualine](https://github.com/hoob3rt/lualine.nvim)
+## [Lualine](https://github.com/hoob3rt/lualine.nvim)
 
 <center>
   <img  src="https://user-images.githubusercontent.com/32819563/111934957-16f0d780-8a88-11eb-9f33-f02c9ba364c1.png" alt="lualine normal mode screenshot">
