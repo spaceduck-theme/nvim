@@ -5,7 +5,30 @@
 
 <hr>
 
+<center>
+  <img  src="https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/banner.png?raw=true" alt="Spaceduck Logo of duck in an astronaut uniform holding computer: credit to Lexi @kalrita_lw">
+</center>
+
+<center>
+  <img  src="https://github.com/pineapplegiant/spaceduck-terminal/blob/main/img/screenshot.png?raw=true" alt="Screenshot of terminal with vim spaceduck theme installed">
+</center>
+
 This is Nvim spaceduck theme port written in Lua.
+
+# Inspiration 💭
+
+This theme was inspired from my incessant desire to feel like I'm in space when I stare at a computer.
+"Spaceduck" takes its name from my love of [duck dodgers](https://m.media-amazon.com/images/M/MV5BNDY2YjgyZGMtMWY2Zi00ZmQ5LTg0YjgtNjYyMGNkMTMzNWU1XkEyXkFqcGdeQXVyMzM4NjcxOTc@._V1_.jpg) as a kid.
+
+# Current Language Support
+
+Basically languages I looked at with my eyes to make sure they didn't look like poop.
+
+**Languages:**
+
+_Note: if something looks off please submit an issue with a screenshot_
+
+- C, C++, fortran, haskell, html, java, javascript, markdown, php, python, ruby, sql, LaTeX, typescript
 
 # Installation
 
