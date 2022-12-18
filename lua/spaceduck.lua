@@ -8,8 +8,7 @@
 vim.opt.background = "dark"
 vim.api.nvim_command("hi clear")
 
-local syntaxOnExists = vim.api.nvim_exec("exists('syntax_on')", true)
-if syntaxOnExists == 1 then
+if vim.g.syntax_on then
   vim.api.nvim_command("syntax reset")
 end
 
@@ -230,14 +229,16 @@ local scheme = {
     reverse = true,
   },
   StatusLineTerm = { link = "StatusLine" },
-  StatusLineTermNC = {
-    fg = colors.black.hex,
-    ctermfg = colors.black.cterm,
-    bg = colors.dark_purple.hex,
-    ctermbg = colors.dark_purple.cterm,
-    reverse = true,
-  },
-  StatusLineNC = { link = "StatusLineTermNC " },
+  -- The two groups below are commented until we determine why StatusLineTermNC
+  -- is not accepted by nvim_set_hl()
+  -- StatusLineTermNC = {
+  --   fg = colors.black.hex,
+  --   ctermfg = colors.black.cterm,
+  --   bg = colors.dark_purple.hex,
+  --   ctermbg = colors.dark_purple.cterm,
+  --   reverse = true,
+  -- },
+  -- StatusLineNC = { link = "StatusLineTermNC " },
   TabLine = {
     fg = colors.black.hex,
     ctermfg = colors.black.cterm,
