@@ -205,16 +205,14 @@ local scheme = {
     reverse = true,
   },
   StatusLineTerm = { link = "StatusLine" },
-  -- The two groups below are commented until we determine why StatusLineTermNC
-  -- is not accepted by nvim_set_hl()
-  -- StatusLineTermNC = {
-  --   fg = colors.black.hex,
-  --   ctermfg = colors.black.cterm,
-  --   bg = colors.dark_purple.hex,
-  --   ctermbg = colors.dark_purple.cterm,
-  --   reverse = true,
-  -- },
-  -- StatusLineNC = { link = "StatusLineTermNC " },
+  StatusLineTermNC = {
+    fg = colors.black.hex,
+    ctermfg = colors.black.cterm,
+    bg = colors.dark_purple.hex,
+    ctermbg = colors.dark_purple.cterm,
+    reverse = true,
+  },
+  StatusLineNC = { link = "StatusLineTermNC" },
   TabLine = {
     fg = colors.black.hex,
     ctermfg = colors.black.cterm,
