@@ -1,3 +1,9 @@
+# [v1.0.1](https://github.com/spaceduck-theme/nvim/compare/v1.0.0...v1.0.1) (2023-07-01)
+
+## 🐛 Bug Fixes
+- [`5e95aa5`](https://github.com/spaceduck-theme/nvim/commit/5e95aa5)  Set proper style for window separator 
+- [`c9307d1`](https://github.com/spaceduck-theme/nvim/commit/c9307d1)  Change window separator color from cream to dark_purple (Issues: [`#5`](https://github.com/spaceduck-theme/nvim/issues/5))
+
 # v1.0.0 (2022-12-20)
 
 ## ✨ New Features
