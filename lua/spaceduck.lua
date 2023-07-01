@@ -116,10 +116,10 @@ local scheme = {
   TermCursor = { link = "Cursor" },
   ErrorMsg = { fg = colors.red.hex, ctermfg = colors.red.cterm },
   VertSplit = {
-    fg = colors.black.hex,
-    ctermfg = colors.black.cterm,
-    bg = colors.black.hex,
-    ctermbg = colors.black.cterm,
+    fg = colors.dark_purple.hex,
+    ctermfg = colors.dark_purple.cterm,
+    bg = colors.blackish.hex,
+    ctermbg = colors.blackish.cterm,
   },
   Folded = {
     fg = colors.grey_purple.hex,
