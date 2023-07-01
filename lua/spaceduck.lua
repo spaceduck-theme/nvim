@@ -116,8 +116,8 @@ local scheme = {
   TermCursor = { link = "Cursor" },
   ErrorMsg = { fg = colors.red.hex, ctermfg = colors.red.cterm },
   VertSplit = {
-    fg = colors.cream.hex,
-    ctermfg = colors.cream.cterm,
+    fg = colors.dark_purple.hex,
+    ctermfg = colors.dark_purple.cterm,
     bg = colors.blackish.hex,
     ctermbg = colors.blackish.cterm,
   },
