@@ -281,6 +281,12 @@ local scheme = {
   Boolean = { fg = colors.yellow.hex, ctermfg = colors.yellow.cterm },
   Character = { fg = colors.yellow.hex, ctermfg = colors.yellow.cterm },
   Float = { fg = colors.yellow.hex, ctermfg = colors.yellow.cterm },
+  FloatBorder = {
+    fg = colors.cream.hex,
+    ctermfg = colors.cream.cterm,
+    bg = colors.dark_grey.hex,
+    ctermbg = colors.dark_grey.cterm,
+  },
   Number = { fg = colors.yellow.hex, ctermfg = colors.yellow.cterm },
   Conditional = { fg = colors.green.hex, ctermfg = colors.green.cterm },
   Repeat = { fg = colors.green.hex, ctermfg = colors.green.cterm },
