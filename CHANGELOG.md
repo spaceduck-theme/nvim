@@ -1,3 +1,8 @@
+# [v1.1.0](https://github.com/spaceduck-theme/nvim/compare/v1.0.1...v1.1.0) (2023-12-29)
+
+## ✨ New Features
+- [`a7aa1ea`](https://github.com/spaceduck-theme/nvim/commit/a7aa1ea)  Add highlight for float border (Issues: [`#1`](https://github.com/spaceduck-theme/nvim/issues/1))
+
 # [v1.0.1](https://github.com/spaceduck-theme/nvim/compare/v1.0.0...v1.0.1) (2023-07-01)
 
 ## 🐛 Bug Fixes
